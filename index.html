@@ -9,7 +9,7 @@
   </head>
   <body>
     <header>
-      <h1 id="logo">Sajid Munawar</h1>
+      <h1 id="logo"> Sajid Munawar</h1>
       <button type="button" class="menu-bars">
         <i class="fas fa-bars"></i>
       </button>
@@ -22,7 +22,7 @@
         <h2 class="intro-greet">
            Hey There.
           <br />
-          I'm Sajid
+           I'm Sajid
         </h2>
         <h2 class="intro-me">I’am a Software Developer</h2>
         <p class="intro-text">
@@ -289,7 +289,117 @@
           </ul>
         </div>
       </div>
+       <div id="contact">
+        <h2>
+          I'm always interested in hearing about new projects, so if you'd like
+          to chat please get in touch.
+        </h2>
+        <form  id= "form" action="https://formspree.io/f/mwkakrqj" method="POST">
+          <input
+            type="text"
+            name="fullname"
+            id="fullname"
+            placeholder="Full name"
+            required
+          />
+          <div class="name-form">
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="First name"
+              maxlength= "30"
+              required
+            />
+            <input
+              type="text"
+              name="surname"
+              id="surname"
+              placeholder="Last name"
+              maxlength= "30"
+              required
+            />
+          </div>
+          <input
+            type="email"
+            id="email"
+            name="_replyto"
+            placeholder="Email address"
+            maxlength="30"
+            required
+          />
+          <textarea
+            name="message"
+            placeholder="Enter text here"
+            maxlength="500"
+            required
+          ></textarea>
+          <button type="submit" class="link centered-link">Send</button>
+        </form>
+      </div>
     </main>
+    <footer class="social footer-social">
+      <a
+        class="social-link"
+        href="https://github.com/SpaYco"
+        target="_blank"
+        rel="noreferrer noopener"
+      >
+        <img
+          class="social-icon"
+          src="./media/svg/github.svg"
+          alt="GitHub Icon"
+        />
+      </a>
+      <a
+        class="social-link"
+        href="https://www.linkedin.com/in/spayco"
+        target="_blank"
+        rel="noreferrer noopener"
+      >
+        <img
+          class="social-icon"
+          src="./media/svg/linkedin.svg"
+          alt="LinkedIn Icon"
+        />
+      </a>
+      <a
+        class="social-link"
+        href="https://angel.co/spayco"
+        target="_blank"
+        rel="noreferrer noopener"
+      >
+        <img
+          class="social-icon"
+          src="./media/svg/angel.svg"
+          alt="AngelList Icon"
+        />
+      </a>
+      <a
+        class="social-link"
+        href="https://twitter.com/iSpaYco"
+        target="_blank"
+        rel="noreferrer noopener"
+      >
+        <img
+          class="social-icon"
+          src="./media/svg/twitter.svg"
+          alt="Twitter Icon"
+        />
+      </a>
+      <a
+        class="social-link"
+        href="https://spayco.medium.com/"
+        target="_blank"
+        rel="noreferrer noopener"
+      >
+        <img
+          class="social-icon"
+          src="./media/svg/medium.svg"
+          alt="Medium Icon"
+        />
+      </a>
+    </footer>
 
     <script
       src="https://kit.fontawesome.com/e966a3bd22.js"
